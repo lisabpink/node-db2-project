@@ -20,7 +20,7 @@ router.get("/", (req, res) => {
       .catch(error => {
         res
           .status(500)
-          .json({ message: "No, no, no you don't get to see dem cars" });
+          .json({ message: "ERROR: No cars to see here." });
       });
   });
 
